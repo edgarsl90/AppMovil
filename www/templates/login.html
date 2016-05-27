@@ -1,0 +1,34 @@
+<ion-view view-title="Iniciar Sesion">
+  <ion-content>
+
+  
+
+
+  <div class="list">
+  
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Email</span>
+    <input type="email" ng-model="email" placeholder="johasdasdadsn@suhr.com">
+  </label>
+  <label class="item item-input item-stacked-label">
+    <span class="input-label">Password</span>
+    <input type="password" ng-model"password" ng-minlength="3" placeholder="Password">
+  </label>
+
+    <br>
+    <br>
+      <div class="padding">
+        <button ui-sref="tab.dash" ng-diabled="!email || !password" class="button button-block button-positive">
+        Iniciar Sesion
+        </button>
+      </div>
+    <br>
+
+   
+    <a href="#/Sign-up">Registro</a>
+</div>
+ 
+
+
+   </ion-content>
+</ion-view>
